@@ -27,13 +27,13 @@ What I Learned
 
 Honestly, when I started this room I didn't really know what a hex editor was.
 
-What I learned is that a hex editor lets you look at the actual contents of a file in bytes.
+What I learned is that a hex editor lets you look at the actual contents of a file.
 
-I originally thought hex editors somehow "turn code into hex," but what I understand now is that files are already made up of bytes, and the hex editor is simply showing those bytes in hexadecimal format.
+I understand now that files are made up of bytes, and the hex editor is simply showing those bytes in hexadecimal format.
 
 I also learned that some files contain readable text hidden inside them.
 
-That means files can contain things like:
+like:
 
 Flags
 Passwords
@@ -43,30 +43,6 @@ Usernames
 Configuration information
 
 without those things being visible when you normally open or run the file.
-
-My Thought Process
-
-When I saw:
-
-"encrypted data buried in its code"
-
-I thought:
-
-
-The flag is hidden in the game
-
-The flag must be stored somewhere in the file
-
-I need a way to look inside the file
-
-Use a hex editor
-
-Search for THM
-
-Find the flag
-
-
-This room taught me that sometimes the simplest thing to do is inspect a file before trying anything more advanced.
 
 Hex Editor Basics
 
